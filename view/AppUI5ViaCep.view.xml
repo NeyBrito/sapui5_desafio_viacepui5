@@ -8,21 +8,21 @@
                 </Panel>
 
                 <Panel id="panel2"  headerText="CEP Encontrado">
-                    <MaskInput id="_IDGenMaskInput1" mask="99.999-999" name="cep" editable="false" width="40%" />
+                    <MaskInput id="cep" mask="99.999-999" name="cep" editable="false" width="40%" />
                 </Panel>
 
                 <Panel id="panel3"  headerText="Endereço Completo">                      
                     <Label id="_IDGenLabel1" text="Logradouro:" width="30%" />
-                    <Input id="_IDGenInput1" editable="false" name="logradouro" fieldWidth="40%" />
+                    <Input id="logradouro" editable="false" name="logradouro" fieldWidth="40%" />
 
                     <Label id="_IDGenLabel2" text="Bairro:" width="20%" />
-                    <Input id="_IDGenInput2" editable="false" name="bairro" fieldWidth="20%" />
+                    <Input id="bairro" editable="false" name="bairro" fieldWidth="20%" />
 
                     <Label id="_IDGenLabel3" text="Cidade:" width="20%" />
-                    <Input id="_IDGenInput3" editable="false" name="cidade" fieldWidth="20%" />
+                    <Input id="cidade" editable="false" name="cidade" fieldWidth="20%" />
 
                     <Label id="_IDGenLabel4" text="Estado:" width="20%" />
-                    <Input id="_IDGenInput4" editable="false" name="estado" fieldWidth="10%" />
+                    <Input id="estado" editable="false" name="estado" fieldWidth="10%" />
                 </Panel>
             </content>
             <footer>
