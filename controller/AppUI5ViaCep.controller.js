@@ -5,8 +5,7 @@ sap.ui.define([
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller,
-	Context) {
+    function (Controller) {
         "use strict";
         
         return Controller.extend("treinaui5.sapui5viacep.controller.AppUI5ViaCep", {
