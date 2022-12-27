@@ -1,0 +1,36 @@
+<mvc:View controllerName="treinaui5.sapui5viacep.controller.AppUI5ViaCep"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" >
+        <content> 
+                <Panel id="panel1"  headerText="Busca Cep">
+                    <SearchField id="_IDGenSearchField1" placeholder="Digite o CEP" width="40%" maxLength="8" search=".pesquisarCep" />
+                </Panel>
+
+                <Panel id="panel2"  headerText="CEP Buscado">
+                    <MaskInput id="_IDGenMaskInput1" mask="99.999-999" name="cep" editable="false" width="40%" />
+                </Panel>
+
+                <Panel id="panel3"  headerText="Endereço Completo">                      
+                    <Label id="_IDGenLabel1" text="Logradouro:" width="30%" />
+                    <Input id="_IDGenInput1" editable="false" name="logradouro" fieldWidth="40%" />
+
+                    <Label id="_IDGenLabel2" text="Bairro:" width="20%" />
+                    <Input id="_IDGenInput2" editable="false" name="bairro" fieldWidth="20%" />
+
+                    <Label id="_IDGenLabel3" text="Cidade:" width="20%" />
+                    <Input id="_IDGenInput3" editable="false" name="cidade" fieldWidth="20%" />
+
+                    <Label id="_IDGenLabel4" text="Estado:" width="20%" />
+                    <Input id="_IDGenInput4" editable="false" name="estado" fieldWidth="10%" />
+                </Panel>
+            </content>
+            <footer>
+                <Bar id="_IDGenBar1">
+                    <contentRight>
+                        <Button id="_IDGenButton1" text="Limpar/Buscar" type="Accept" press=".limparEndereco" />
+                    </contentRight>
+                </Bar>
+            </footer>
+    </Page>
+</mvc:View>
