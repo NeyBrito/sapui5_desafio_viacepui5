@@ -7,7 +7,7 @@
                     <SearchField id="_IDGenSearchField1" placeholder="Digite o CEP" width="40%" maxLength="8" search=".pesquisarCep" />
                 </Panel>
 
-                <Panel id="panel2"  headerText="CEP Buscado">
+                <Panel id="panel2"  headerText="CEP Encontrado">
                     <MaskInput id="_IDGenMaskInput1" mask="99.999-999" name="cep" editable="false" width="40%" />
                 </Panel>
 
