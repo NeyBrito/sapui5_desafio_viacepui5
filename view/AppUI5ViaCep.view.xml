@@ -4,7 +4,7 @@
     <Page id="page" title="{i18n>title}" >
         <content> 
                 <Panel id="panel1"  headerText="Busca Cep">
-                    <SearchField id="_IDGenSearchField1" placeholder="Digite o CEP" width="40%" maxLength="8" search=".pesquisarCep" />
+                    <SearchField id="_IDGenSearchField1" value="{view>/termoBusca}" placeholder="Digite o CEP" width="50%" maxLength="9" search="pesquisarCep" />
                 </Panel>
 
                 <Panel id="panel2"  headerText="CEP Encontrado">
@@ -24,6 +24,20 @@
                     <Label id="_IDGenLabel4" text="Estado:" width="20%" />
                     <Input id="estado" editable="false" name="estado" fieldWidth="10%" />
                 </Panel>
+
+                <!-- <Panel id="panel4"  headerText="Endereço Completo JsonModel">                      
+                    <Label id="_IDGenLabel5" text="Logradouro:" width="30%" />
+                    <Input id="logradouro1" editable="false" name="logradouro" fieldWidth="40%" />
+
+                    <Label id="_IDGenLabel6" text="Bairro:" width="20%" />
+                    <Input id="bairro1" editable="false" name="bairro" fieldWidth="20%" />
+
+                    <Label id="_IDGenLabel7" text="Cidade:" width="20%" />
+                    <Input id="cidade1" editable="false" name="cidade" fieldWidth="20%" />
+
+                    <Label id="_IDGenLabel8" text="Estado:" width="20%" />
+                    <Input id="estado1" editable="false" name="estado" fieldWidth="10%" />
+                </Panel> -->
             </content>
             <footer>
                 <Bar id="_IDGenBar1">

@@ -2,3 +2,16 @@ applications:
 - name: sapui5-viacepapp
   memory: 64M
   buildpack: staticfile_buildpack
+  path: /viacep
+  env:
+    destinations: >
+        [
+          {
+            "name":"VIA_CEP",
+            "url":"https://api.cf.us10-001.hana.ondemand.com",
+          }
+        ]
+    services:
+          - xsuaa-service
+          - dest-service
+          - html5-repo-runtime   
